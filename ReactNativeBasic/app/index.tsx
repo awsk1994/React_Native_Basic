@@ -8,6 +8,9 @@ export default function Index() {
       <Link href="/about" style={styles.button}>
         Go to About screen
       </Link>
+      <Link href="/test" style={styles.button}>
+        Go to Test Tab screen
+      </Link>
     </View>
   );
 }
