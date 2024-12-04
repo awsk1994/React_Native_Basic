@@ -1,3 +1,7 @@
+// Create a nested layout route that checks whether users are authenticated before rendering 
+// the child route components. 
+// This layout route redirects users to the sign-in screen if they are not authenticated.
+
 import { Text } from 'react-native';
 import { Redirect, Stack } from 'expo-router';
 
